@@ -7,7 +7,7 @@
     margin: auto;
     background-color: #041b15;
     height: 500px;
-    color: white;
+    color: #4ce0d2;
     border-radius: 10px;
     }
 
@@ -22,7 +22,7 @@
     }
 
     .topnav a {
-    color: white;
+    color: #4ce0d2;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -38,11 +38,11 @@
     }
 
     .topnav a:hover {
-    background-color: #ddd;
+    background-color: #4ce0d2;
     color: #041b15;
     }
 
     .active {
     background-color: #04AA6D;
-    color: white;
+    color: #4ce0d2;
     }
