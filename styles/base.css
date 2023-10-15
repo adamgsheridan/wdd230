@@ -1,5 +1,6 @@
 body {
     background-color: #136f63;
+    text-align: center;
 }
 
 nav {
@@ -19,10 +20,6 @@ main {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
 
-}
-
-body {
-    text-align: center;
 }
 
 header {
@@ -53,6 +50,10 @@ img.profilePicture {
 section {
     background-color: #4ce0d2;
     grid-column: 2/3;
+}
+
+p {
+    background-color: #041b15
 }
 
 /* Colors used: https://coolors.co/041b15-136f63-22aaa1-4ce0d2  */

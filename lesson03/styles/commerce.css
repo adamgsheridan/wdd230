@@ -1,0 +1,60 @@
+body {
+    background-color: #136f63;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    background-color: #041b15;
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #136f63;
+    font-size: medium;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+img {
+    background-color: white;
+    padding: 5px;
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+.color1 .color2 .color3{
+    display: grid;
+    grid-area: left;
+}
+
+.card1 {
+    text-align: center;
+    width: 60%;
+}
+.card2 {
+    text-align: center;
+    width: 50%;
+}
+.card3 {
+    text-align: center;
+    width: 60%;
+}
+.card4 {
+    text-align: center;
+    width: 80%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
