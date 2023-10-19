@@ -1,6 +1,7 @@
 body {
     background-color: #136f63;
     text-align: center;
+    margin: 0;
 }
 
 nav {
@@ -54,6 +55,11 @@ section {
 
 p {
     background-color: #041b15
+}
+
+ul {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 /* Colors used: https://coolors.co/041b15-136f63-22aaa1-4ce0d2  */

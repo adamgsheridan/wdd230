@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    margin: 0;
 }
 
 nav {
@@ -21,8 +22,10 @@ a {
 
 main {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(10px, auto);
+    grid-auto-columns: minmax(10px, auto);
+
 
 }
 
@@ -41,20 +44,59 @@ p {
 }
 
 .card1 {
-    text-align: center;
-    width: 60%;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    background: #4ce0d2;
+    border: 1px solid #041b15;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card2 {
-    text-align: center;
-    width: 50%;
+    padding: 10px;
+    width: 80%;
+    background: #4ce0d2;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card3 {
-    text-align: center;
-    width: 60%;
+    padding: 10px;
+    width: 80%;
+    background: #4ce0d2;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card4 {
-    text-align: center;
+    padding: 10px;
     width: 80%;
+    background: #4ce0d2;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.wireframe {
+    width: 90%;
+}
+
+@media (width <= 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width <= 500px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
