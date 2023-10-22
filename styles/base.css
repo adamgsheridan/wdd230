@@ -1,7 +1,6 @@
 body {
     background-color: #136f63;
     text-align: center;
-    margin: 0;
 }
 
 nav {
@@ -30,6 +29,7 @@ header {
 h1 {
     /*space cadet*/
     color: #041b15;
+    grid-column: 2/3;
 }
 
 h2 {
@@ -44,8 +44,11 @@ h3 {
 }
 
 img.profilePicture {
-    width: 10%;
-    height: 10%;
+    width: 200px;
+    height: 200px;
+    grid-column: 2/3;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
@@ -55,6 +58,10 @@ section {
 
 p {
     background-color: #041b15
+}
+
+p2 {
+    color: #136f63;
 }
 
 ul {

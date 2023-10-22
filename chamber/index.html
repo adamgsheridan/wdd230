@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexburg Chamber of Commerce Website</title>
+    <meta name="description" content="This will be the Chamber of Commerce website located in the City of Rexburg.">
+    <meta name="author" content="Adam Sheridan">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <meta property="og:title" content="Rexburg Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/Rexburg temple.jpg">
+    <meta property="og:url" content="https://adamgsheridan.github.io/wdd230/">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header></header>
+    <nav>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <div id="myLinks">
+                <a href="#">Discover</a>
+                <a href="#">Directory</a>
+                <a href="#">Join</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleBars()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script src="scripts/hamburgerMenu.js"></script>
+    </nav>
+    
+    <img src="images/Rexburgtemple.jpg" alt="hero">
+    <a href="https://adamgsheridan.github.io/wdd230/">call to action</a>
+    <main>
+        <div class="chamberitems">
+            <div class="events">
+                <h2>Current Events</h2>
+                <p>Color Run</p>
+                <p>October 25th, 2023</p>
+                <img src="#" alt="insert image">
+                <br>
+                <p>Rexburg Football Game</p>
+                <p>October 27th, 2023</p>
+                <img src="#" alt="insert image">
+            </div>
+            <div class="weather">
+                <h2>Weather Forecast</h2>
+                <img src="#" alt="insert weather related image">
+                <br>
+                <p>temperature in degrees Fahrenheit</p>
+            </div>
+            <section>
+                <div class="company1">
+                    <h2>Company 1</h2>
+                    <img src="#" alt="company1 pic">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nisi numquam, maxime ex laboriosam doloremque dolorum soluta quas! Minus sit doloremque eos rerum quidem enim vitae voluptatum labore iure itaque.</p>
+                    <br>
+                    <p>Contact Information</p>
+                    <br>
+                    <a href="#">company1 website</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Adam Sheridan</p>
+        <p>Project for WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>

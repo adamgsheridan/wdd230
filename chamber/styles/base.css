@@ -1,0 +1,110 @@
+/* index specific styles */
+img {
+    width: 100%;
+    height: 500px
+}
+
+.chamberitems {
+    background-color: #e9b872;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+.events {
+    background-color: #90a959;
+    grid-column: 1/2;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+}
+.weather {
+    background-color: #a63d40;
+    grid-column: 2/2;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+}
+section {
+    background-color: #90a959;
+    grid-column: 1/2;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+}
+footer {
+    background-color: #a63d40;
+    text-align: center;
+}
+
+body {
+    background-color: #6494aa;
+}
+
+@media (width <= 1000px) {
+    img {
+        height: 400px;
+    }
+}
+
+@media (width <= 500px) {
+    img {
+        height: 200px;
+    }
+}
+
+/* hamburger menu specific styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    }
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #041b15;
+    height: 500px;
+    color: #6494aa;
+    border-radius: 10px;
+    }
+
+.topnav {
+    overflow: hidden;
+    background-color: #041b15;
+    position: relative;
+    }
+
+.topnav #myLinks {
+    display: none;
+    }
+
+.topnav a {
+    color: #6494aa;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    }
+
+.topnav a.icon {
+    background: #041b15;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+
+.topnav a:hover {
+    background-color: #6494aa;
+    color: #041b15;
+    }
+
+.active {
+    background-color: #6494aa;
+    color: #6494aa;
+    }
+
+
+
+    /* https://coolors.co/151515-a63d40-e9b872-90a959-6494aa */
