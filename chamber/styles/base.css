@@ -4,41 +4,100 @@ img {
     height: 500px;
 }
 
-.chamberitems {
+.light-chamberitems {
     background-color: #e9b872;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 1rem;
 }
-.events {
+
+.dark-chamberitems {
+    background-color: #7C5013;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    color: #e9b872;
+}
+
+.light-events {
     background-color: #90a959;
     grid-column: 1/2;
     padding: 10px;
     margin: 15px;
     height: auto;
 }
-.weather {
+
+.dark-events {
+    background-color: #222815;
+    grid-column: 1/2;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+}
+.light-weather {
     background-color: #a63d40;
     grid-column: 2/2;
     padding: 10px;
     margin: 15px;
     height: auto;
 }
-section {
+
+.dark-weather {
+    background-color: #4A1C1D;
+    grid-column: 2/2;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+}
+
+.light-company1 {
     background-color: #90a959;
     grid-column: 1/2;
     padding: 10px;
     margin: 15px;
     height: auto;
 }
+
+.dark-company1 {
+    background-color: #222815;
+    grid-column: 1/2;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+}
+
 footer {
+    
     background-color: #a63d40;
     text-align: center;
+}
+.light-footer {
+    position: absolute;
+    width: 100%;
+    background-color: #a63d40;
+}
+
+.dark-footer {
+    position: absolute;
+    width: 100%;
+    background-color: #4A1C1D;
+    color: #e9b872;
 }
 
 body {
     background-color: #6494aa;
+}
+
+.light-body {
+    position: absolute;
+    width: 100%;
+    background-color: #6494aa;
+}
+
+.dark-body {
+    background-color: #162227;
 }
 
 @media (width <= 1000px) {
@@ -112,5 +171,9 @@ body {
     cursor: pointer;
 }
 
+a {
+    color: #ffffff;
+}
 
-    /* https://coolors.co/151515-a63d40-e9b872-90a959-6494aa */
+
+/* https://coolors.co/151515-a63d40-e9b872-90a959-6494aa */

@@ -1,21 +1,26 @@
 const modeButton = document.querySelector("#mode");
-const body = document.querySelector("body");
-const section1 = document.querySelector(".events");
-const section2 = document.querySelector("section");
-
+const a = document.querySelector("a");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🕶️")) {
-		body.style.background = "#ffffff";
-		body.style.color = "#faf2a1";
-        //section1.style.backgroundColor = "#401f3e";
-        section1.style.backgroundColor = "#401f3e";
-        section2.style.backgroundColor = "#401f3e";
-        //document.getElementById("section1").style.backgroundColor = "#000000";
+		const lightElements = document.querySelectorAll("[class^='light-']")
+		for(let i=0; i < lightElements.length; i++){
+			console.log(lightElements[i]);
+			console.log(lightElements[i].className)
+			console.log(lightElements[i].className.split('light-'));
+			console.log("dark-" + lightElements[i].className.split('light-')[1]);
+			lightElements[i].className = "dark-" + lightElements[i].className.split('light-')[1];
+		}
 		modeButton.textContent = "🔆";
 	} else {
-		body.style.background = "#6494aa";
-		body.style.color = "#041b15";
+		const lightElements = document.querySelectorAll("[class^='dark-']")
+		for(let i=0; i < lightElements.length; i++){
+			console.log(lightElements[i]);
+			console.log(lightElements[i].className)
+			console.log(lightElements[i].className.split('dark-'));
+			console.log("light-" + lightElements[i].className.split('dark-')[1]);
+			lightElements[i].className = "light-" + lightElements[i].className.split('dark-')[1];
+		}
 		modeButton.textContent = "🕶️";
 	}
 });
