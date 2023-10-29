@@ -1,7 +1,7 @@
 /* index specific styles */
 img {
     width: 100%;
-    height: 500px
+    height: 500px;
 }
 
 .chamberitems {
@@ -105,6 +105,12 @@ body {
     color: #6494aa;
     }
 
+#mode {
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
 
 
     /* https://coolors.co/151515-a63d40-e9b872-90a959-6494aa */
