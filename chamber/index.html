@@ -27,15 +27,23 @@
                 <a href="#">Directory</a>
                 <a href="#">Join</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="toggleBars()">
+            <a href="javascript:void(0);" class="favorite-icon" onclick="toggleBars()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
         <script src="scripts/hamburgerMenu.js"></script>
     </nav>
     
-    <img src="images/Rexburgtemple.jpg" alt="hero">
+    <picture>
+        <source
+            srcset="images/MediumImage.webp" media="min-width: 1000px"
+            srcset="images/SmallImage.webp" media="min-width: 500px"
+        >
+        <img src="images/largeImage.webp" alt="hero">
+    </picture>
+    <!--  images/Rexburgtemple.jpg   -->
     <a href="https://adamgsheridan.github.io/wdd230/">call to action</a>
+    <h1>Rexburg Chamber of Commerce</h1>
     <div id="mode">
         🕶️
     </div>
@@ -58,6 +66,8 @@
                 <br>
                 <p>Below is a link to the temperature in degrees Fahrenheit. Generally the climate of Rexburg includes warm summers and freezing cold winters. It is overall considered a humid continental climate.</p>
                 <a href="https://weather.com/weather/tenday/l/Rexburg+ID?canonicalCityId=78c17317d0041150595ffd299bf4b7934b3523bedbcfd63295bb076690a72c97">Click here to view current temperature</a>
+                <p id="windchill"></p>
+                <script src="scripts/windchill.js"></script>
             </div>
             <section>
                 <div class="light-company1">
