@@ -179,5 +179,43 @@ h1 {
     text-align: center;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 45px;
+    
+}
+
+.left {
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.right {
+    outline-style: solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.rexburgrapids {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.attractions, .calendar, .stats {
+    outline-style: solid;
+    background-color: #e9b872;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.temple, .strawmaze, .rexburg-rapids, .campus, .park, .cookie {
+    margin: 40px;
+}
+
 
 /* https://coolors.co/151515-a63d40-e9b872-90a959-6494aa */
