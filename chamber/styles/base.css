@@ -195,7 +195,7 @@ h1 {
 .right {
     outline-style: solid;
     padding: 10px;
-    margin: 10px;
+    margin: auto;
     text-align: center;
 }
 
