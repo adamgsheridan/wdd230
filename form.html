@@ -34,7 +34,7 @@
                 <label class="top">Username:<input type="text" name="username" required></label>
                 <label class="top">Password:<input type="password" name="password" pattern="[A-Za-z0-9]{8}" required></label>
                 <label class="top">Password (For Confirmation):<input type="password" name="passwordconfirmation" pattern="[A-Za-z0-9]{8}" required></label>
-                <label class="top">Email:<input type="email" name="email" placeholder="someone@email.com" required></label>
+                <label class="top">Email:<input type="email" name="email" placeholder="someone@email.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
                 <label class="top">Page Rating:<input type="range" name="rating"></label>
                 <input type="submit" class="submitBtn" value="Submit Information">
             </fieldset>
