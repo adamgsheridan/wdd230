@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Webpage for WDD230</title>
+    <meta name="description" content="This website will contain the form that users will submit regarding their accoount information.">
+    <meta name="author" content="Adam Sheridan">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/hamburgerMenu.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles/form.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -30,13 +33,13 @@
         <h1></h1>
         <form method="get" action="index.html">
             <fieldset>
-                <legend>Enter Username:</legend>
-                <label>Username:<input type="text" name="username" required></label>
-                <label>Password:<input type="text" name="password" required></label>
-                <label>Password (For Confirmation):<input type="text" name="passwordconfirmation" required></label>
-                <label>Email:<input type="text" name="email" placeholder="someone@email.com" required></label>
-                <label>Page Rating:<input type="text" name="rating" placeholder="number between 1 and 10" required></label>
-                <input type="submit"></input>
+                <legend>Enter Information:</legend>
+                <label class="top">Username:<input type="text" name="username" required></label>
+                <label class="top">Password:<input type="text" name="password" required></label>
+                <label class="top">Password (For Confirmation):<input type="text" name="passwordconfirmation" required></label>
+                <label class="top">Email:<input type="text" name="email" placeholder="someone@email.com" required></label>
+                <label class="top">Page Rating:<input type="text" name="rating" placeholder="number between 1 and 10" required></label>
+                <input type="submit" class="submitBtn" value="Submit Information">
             </fieldset>
         </form>
 
