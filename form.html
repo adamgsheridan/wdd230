@@ -28,26 +28,21 @@
         </div>
         <script src="scripts/hamburgerMenu.js"></script>
     </nav>
-
-    <form>
-        <h1></h1>
         <form method="get" action="index.html">
             <fieldset>
                 <legend>Enter Information:</legend>
                 <label class="top">Username:<input type="text" name="username" required></label>
-                <label class="top">Password:<input type="text" name="password" required></label>
-                <label class="top">Password (For Confirmation):<input type="text" name="passwordconfirmation" required></label>
-                <label class="top">Email:<input type="text" name="email" placeholder="someone@email.com" required></label>
-                <label class="top">Page Rating:<input type="text" name="rating" placeholder="number between 1 and 10" required></label>
+                <label class="top">Password:<input type="password" name="password" pattern="[A-Za-z0-9]{8}" required></label>
+                <label class="top">Password (For Confirmation):<input type="password" name="passwordconfirmation" pattern="[A-Za-z0-9]{8}" required></label>
+                <label class="top">Email:<input type="email" name="email" placeholder="someone@email.com" required></label>
+                <label class="top">Page Rating:<input type="range" name="rating"></label>
                 <input type="submit" class="submitBtn" value="Submit Information">
             </fieldset>
         </form>
 
-    </form>
-
     <footer>
         &copy;<span id="currentYear"></span><br>Adam Sheridan<br>United States of America
-        <p2 id="lastModified"></p2>
+        <div id="lastModified"></div>
     </footer>
     <script src="scripts/getDates.js"></script>
 </body>
