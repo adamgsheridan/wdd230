@@ -220,3 +220,49 @@ h1 {
 
 
 /* https://coolors.co/151515-a63d40-e9b872-90a959-6494aa */
+
+
+/* Css for form page titled "join.html" */
+form .info h1 {
+    text-align: left;
+}
+
+form fieldset {
+    margin: 5% 20% 5% 20%;
+    border: 1px solid #041b15;
+    text-align: left;
+}
+
+form label.top, form div {
+    display: block;
+    padding: .5rem;
+}
+
+@media (width <= 600px) {
+    form label.membership {
+        display: block;
+    }
+}
+
+form label.top input, form label.top select {
+    display: block;
+    border: solid 1px #041b15;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form input.submitBtn {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form ::placeholder {
+    color: #041b15;
+}

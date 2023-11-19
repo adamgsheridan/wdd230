@@ -41,20 +41,20 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Fill out information to join:</legend>
-                <div><h1>Personal Information</h1></div>
+                <div class="info"><h1>Personal Information</h1></div>
                 <label class="top">First Name:<input type="text" id="fname" name="fname" required></label>
                 <label class="top">Last Name:<input type="text" id="lname" name="lname" required></label>
-                <label class="top">Title within your organization:<input type="text" id="position" name="position" pattern="[A-Za-z0-9- ]{7}" required></label>
+                <label class="top">Title within your organization:<input type="text" id="position" name="position" pattern="[A-Za-z -]{7,}" required></label>
                 <label class="top">Email:<input type="email" id="email" name="email" placeholder="someone@email.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
-                <label class="top">Phone Number:<input type="telephone" id="phone" name="phone" required></label>
-                
-                <div><h1>Business Information</h1></div>
+                <label class="top">Phone Number:<input type="tel" id="phone" name="phone" required></label>
+
+                <div class="info"><h1>Business Information</h1></div>
                 <label class="top">Organization Name:<input type="text" id="organization" name="organization" required></label>
                 <div>Membership Level</div>
-                <label><input type="radio" name="level" value="npmembership">NP Membership</label>
-                <label><input type="radio" name="level" value="bronze">Bronze Membership</label>
-                <label><input type="radio" name="level" value="silver">Silver Membership</label>
-                <label><input type="radio" name="level" value="gold">Gold Membership</label>
+                <label class="membership"><input type="radio" name="level" value="npmembership">NP Membership</label>
+                <label class="membership"><input type="radio" name="level" value="bronze">Bronze Membership</label>
+                <label class="membership"><input type="radio" name="level" value="silver">Silver Membership</label>
+                <label class="membership"><input type="radio" name="level" value="gold">Gold Membership</label>
                 <br>
                 <label class="top">Organization Description<input type="text" name="orgdescript" id="orgdescript"></label>
                 <input type="hidden" id="hidden" value="date">
