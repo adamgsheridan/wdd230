@@ -266,3 +266,12 @@ form input.submitBtn {
 form ::placeholder {
     color: #041b15;
 }
+
+form p {
+    margin-bottom: 0;
+}
+
+form textarea {
+    background-color: #6494aa;
+    border: 1px solid #041b15;
+}
