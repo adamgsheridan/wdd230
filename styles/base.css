@@ -68,5 +68,8 @@ ul {
     width: fit-content;
     margin: 0 auto;
 }
+footer {
+    text-align: center;
+}
 
 /* Colors used: https://coolors.co/041b15-136f63-22aaa1-4ce0d2  */
