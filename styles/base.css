@@ -4,6 +4,7 @@
     --background-color: #f4f1de;
     --header-color: #81B29A;
     --accent-color: #3D405B;
+    --text-color: #33354c;
     --other-color: #F2CC8F;
     --another-color: #E07A5F;
 }
@@ -41,11 +42,11 @@ header img {
 header h1 {
     text-align: center;
     margin-top: 40px;
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 nav ul {
-    background-color: var(--accent-color);
+    background-color: var(--text-color);
     color: white;
     padding-inline-start: 0px;
 }
@@ -63,29 +64,30 @@ nav ul li a {
 
 main h2 {
     text-align: center;
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 footer {
     text-align: center;
     background-color: var(--header-color);
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 .card h3 {
     background-color: var(--header-color);
     text-align: center;
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 .card ul li{
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 .card ul li a{
     text-decoration: none;
+    color: var(--text-color);
 }
 
 .card p{
-    color: var(--accent-color);
+    color: var(--text-color);
 }
