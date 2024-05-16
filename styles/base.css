@@ -73,10 +73,15 @@ footer {
     color: var(--text-color);
 }
 
+.card {
+    border: 1px var(--header-color) solid;
+}
+
 .card h3 {
     background-color: var(--header-color);
     text-align: center;
     color: var(--text-color);
+    margin: 0;
 }
 
 .card ul li{
@@ -90,4 +95,25 @@ footer {
 
 .card p{
     color: var(--text-color);
+    padding: 1rem;
 }
+
+/* .topnav ul li a:link{
+    color: white;
+} */
+
+.topnav ul li a:hover{
+    color: var(--text-color);
+}
+/* hover visited link */
+#learning-activities ul li a:hover{
+    color: var(--another-color);
+}
+
+/* #learning-activities ul li a:visited{
+    color: red;
+} */
+
+/* learning-activities li a:link{
+        color: white;
+    }*/

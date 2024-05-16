@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <!-- Defer makes the website wait to execute the javascript until the page has loaded-->
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburgerMenu.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
     <title>Adam Sheridan - WDD 230 - Web Frontend Development</title>
 </head>
@@ -28,13 +29,18 @@
         </header>
 
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
-                <li><a href="chamber/">Chamber</a></li>
-                <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
-                <li><a href="">Scripture</a></li>
-            </ul>
+            <div class="topnav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                    <li><a href="chamber/">Chamber</a></li>
+                    <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+                    <li><a href="">Scripture</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="toggleBars()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </nav>
 
         <main>
@@ -42,10 +48,13 @@
             <hr>
             <div id="cards">
                 <section class="card">
+                    <!-- <div id="learning-activities"> -->
                     <h3>Learning Activities</h3>
-                    <ul>
+                    <ul id="learning-activities">
                         <li>Week 1: <a href="#">Lesson 1</a></li>
+                        <li>Week 2: <a href="lesson02/design-principles.html">Lesson 2: Design Principles Exercise</a></li>
                     </ul>
+                    <!-- </div> -->
                 </section>
                 <section class="card">
                     <h3>Information</h3>
