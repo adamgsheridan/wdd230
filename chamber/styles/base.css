@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --background-color: #f4f1de;
+    --header-color: #81B29A;
+    --accent-color: #3D405B;
+    --text-color: #33354c;
+    --other-color: #F2CC8F;
+    --another-color: #E07A5F;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    text-align: center;
+    background-color: var(--header-color);
+    padding: 5px;
+}
+
+header img {
+    height: 150px;
+    margin: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: var(--text-color);
+}
+
+nav ul {
+    background-color: var(--text-color);
+    color: white;
+    padding-inline-start: 0px;
+}
+
+nav ul li {
+    text-align: center;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.events {
+    border: 3px var(--accent-color) solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.spotlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.spotlight1 {
+    border: 3px var(--accent-color) solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.spotlight2 {
+    border: 3px var(--accent-color) solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.spotlight3 {
+    border: 3px var(--accent-color) solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--header-color);
+    color: var(--text-color);
+}
