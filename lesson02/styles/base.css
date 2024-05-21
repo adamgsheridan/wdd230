@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --background-color: #f4f1de;
+    --header-color: #81B29A;
+    --accent-color: #3D405B;
+    --text-color: #33354c;
+    --other-color: #F2CC8F;
+    --another-color: #E07A5F;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
+}
+
+/* main {
+    display: grid;
+    grid-template-columns: 1fr;
+} */
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--header-color);
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: var(--text-color);
+}
+
+.card {
+    border: 5px var(--text-color) solid;
+    margin: .5rem;
+}
+
+.card h3 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.card p {
+    color: var(--text-color);
+}
+
+.card img {
+    display: block;
+    margin: auto;
+}
+
+.card h4 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.card a {
+    color: var(--text-color);
+    text-decoration: none;
+}
