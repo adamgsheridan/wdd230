@@ -57,10 +57,35 @@ body {
     margin: 0 auto;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero button {
+    position: absolute;
+    left: 43%;
+    bottom: 50px;
+}
+
 .events {
     border: 3px var(--accent-color) solid;
     padding: 10px;
     margin: 5px;
+    border-radius: 50px 15px;
+}
+
+.weather {
+    border: 3px var(--accent-color) solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px 50px;
 }
 
 .spotlights {
@@ -72,18 +97,21 @@ body {
     border: 3px var(--accent-color) solid;
     padding: 10px;
     margin: 5px;
+    border-radius: 50px 15px;
 }
 
 .spotlight2 {
     border: 3px var(--accent-color) solid;
     padding: 10px;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .spotlight3 {
     border: 3px var(--accent-color) solid;
     padding: 10px;
     margin: 5px;
+    border-radius: 15px 50px;
 }
 
 footer {

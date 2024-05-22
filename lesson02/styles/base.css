@@ -45,6 +45,23 @@ header h1 {
     color: var(--text-color);
 }
 
+nav ul {
+    background-color: var(--text-color);
+    color: white;
+    padding-inline-start: 0px;
+}
+
+nav ul li {
+    text-align: center;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
 .card {
     border: 5px var(--text-color) solid;
     margin: .5rem;
