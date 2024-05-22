@@ -90,3 +90,14 @@ nav ul li a {
     color: var(--text-color);
     text-decoration: none;
 }
+
+#link {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--header-color);
+    color: var(--text-color);
+}
