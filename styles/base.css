@@ -75,6 +75,7 @@ footer {
 
 .card {
     border: 1px var(--header-color) solid;
+    margin: 1rem;
 }
 
 .card h3 {
@@ -98,22 +99,14 @@ footer {
     padding: 1rem;
 }
 
-/* .topnav ul li a:link{
-    color: white;
-} */
+.map iframe{
+    width: 100%;
+}
 
 .topnav ul li a:hover{
     color: var(--text-color);
 }
-/* hover visited link */
+
 #learning-activities ul li a:hover{
     color: var(--another-color);
 }
-
-/* #learning-activities ul li a:visited{
-    color: red;
-} */
-
-/* learning-activities li a:link{
-        color: white;
-    }*/
