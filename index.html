@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/smaller.css">
     <!-- Defer makes the website wait to execute the javascript until the page has loaded-->
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburgerMenu.js" defer></script>
@@ -23,27 +24,30 @@
 <body>
     <div id="content">
         <header>
-            <img src="https://picsum.photos/150/150" alt="Adam Sheridan headshot">
-            <h1>Adam Sheridan</h1>
-
-        </header>
-
-        <nav>
-            <div class="topnav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
-                    <li><a href="chamber/index.html">Chamber</a></li>
-                    <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
-                    <li><a href="">Scripture</a></li>
-                </ul>
-                <a href="javascript:void(0);" class="icon" onclick="toggleBars()">
-                    <i class="fa fa-bars"></i>
-                </a>
+            <div id="top-header">
+                <img src="https://picsum.photos/150/150" alt="Adam Sheridan headshot">
+                <h1>Adam Sheridan</h1>
             </div>
-        </nav>
-
+            <button id="hamburger-button" onclick="toggleMenu()"></button>
+            <nav class="nav-visibility">
+                <div class="topnav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                        <li><a href="chamber/index.html">Chamber</a></li>
+                        <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+                        <li><a href="">Scripture</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <main>
+            <div class="temple">
+                <pictures>
+                    <source media="(max-width: 800px)" srcset="/images/las_vegas_temple.webp"/>
+                    <img src="./images/las_vegas_temple.webp" alt="Las Vegas Temple">
+                </pictures>
+            </div>
             <h2>WDD 230: Web Frontend Development I</h2>
             <hr>
             <div id="cards">
@@ -62,7 +66,7 @@
                     <p>Visits to the Page: Placeholder</p>
                 </section>
                 <section class="card map">
-                    <iframe></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105710.96007169771!2d-84.13939003001936!3d34.108779438015375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5909322911e0f%3A0x7186d7dd34fe0f87!2sSugar%20Hill%2C%20GA!5e0!3m2!1sen!2sus!4v1716939597993!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </section>
             </div>
         </main>
@@ -73,5 +77,4 @@
         </footer>
     </div>
 </body>
-
 </html>
