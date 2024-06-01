@@ -28,7 +28,7 @@ ul {
     list-style: none;
 }
 
-header {
+#top-header {
     display: grid;
     grid-template-columns: 1fr 4fr;
     background-color: var(--header-color);
@@ -43,6 +43,24 @@ header h1 {
     text-align: center;
     margin-top: 40px;
     color: var(--text-color);
+}
+
+.hide {
+    display: none;
+}
+
+#hamburger-button {
+    background-color: inherit;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#hamburger-button::before{
+    content: "≡";
+}
+
+#hamburger-button.open::before{
+    content: "X";
 }
 
 nav ul {
