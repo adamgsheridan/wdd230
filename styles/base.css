@@ -122,9 +122,9 @@ footer {
 }
 
 .topnav ul li a:hover{
-    color: var(--text-color);
+    color: var(--header-color);
 }
 
 #learning-activities ul li a:hover{
-    color: var(--another-color);
+    color: var(--header-color);
 }
