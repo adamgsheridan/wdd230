@@ -99,6 +99,10 @@ main li {
     margin: 0;
 }
 
+.card p {
+    padding-left: 15px;
+}
+
 .wireframe img {
     display: block;
     height: 600px;
