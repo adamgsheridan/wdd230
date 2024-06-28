@@ -1,8 +1,13 @@
-function toggleBars() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-    x.style.display = "none";
-    } else {
-    x.style.display = "block";
+function toggleMenu(){
+    console.log("Hello")
+    const nav = document.getElementsByTagName("nav")[0]
+    console.log(nav)
+    if (nav.className == '')
+    {
+        nav.className = 'hide'
+    }
+    else 
+    {
+        nav.className = ''
     }
 }

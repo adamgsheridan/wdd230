@@ -4,4 +4,12 @@
         flex-direction: row;
         justify-content: space-around;
     }
+
+    .nav-visibility{
+        display: block;
+    }
+    
+    #hamburger-button{
+        display: none;
+    }
 }

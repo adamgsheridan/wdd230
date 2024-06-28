@@ -30,6 +30,24 @@ header h1 {
     color: var(--text-color);
 }
 
+.hide {
+    display: none;
+}
+
+#hamburger-button {
+    background-color: inherit;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#hamburger-button::before{
+    content: "≡";
+}
+
+#hamburger-button.open::before{
+    content: "X";
+}
+
 nav ul {
     background-color: var(--text-color);
     color: white;
