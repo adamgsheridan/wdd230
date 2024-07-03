@@ -19,13 +19,15 @@
     <script src="scripts/hamburgerMenu.js" defer></script>
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/nightMode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
-<div class="light-body">
-    <body>
-        <div id="light-content">
-            <header class="light-header">
+<body class="light-body">
+    <div id="light-content">
+        <header class="light-header">
+            <div id="top-header">
+                <img src="images/sugar_hill_logo.jpg" alt="hero-image">
                 <h1>Sugar Hill Chamber of Commerce</h1>
-            </header>
+            </div>
             <button id="hamburger-button" onclick="toggleMenu()"></button>
             <nav class="light-nav-visibility">
                 <div class="topnav">
@@ -38,53 +40,71 @@
                     </ul>
                 </div>
             </nav>
-            <div id="mode">
-                🕶️
-            </div>
-            <main>
-                <section class="light-hero">
-                    <!-- lorem picsum for pics -->
-                    <img src="https://picsum.photos/100/100" alt="hero-image">
-                    <button>Call to Action</button>
-                </section>
-                <section class="light-events">
-                    <h3>Events</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia minima nam animi. Ut aspernatur quis incidunt sunt molestiae voluptas porro minus, dolore mollitia totam obcaecati in ab expedita quo? Fuga labore dolor molestias dolores quasi harum repellat doloremque quia ad architecto ea eos obcaecati dignissimos aliquid illo non eveniet, est vero veritatis nulla! Impedit aliquam adipisci voluptates quisquam, et, totam soluta explicabo neque quibusdam unde placeat similique reiciendis, sed id dignissimos reprehenderit quas sit beatae? Quo blanditiis et culpa praesentium, sequi cupiditate natus aut! Provident quas voluptatem architecto consequuntur dignissimos tenetur beatae cupiditate inventore sequi odio, similique ea expedita doloremque.</p>
-                </section>
-                <section class="light-weather">
-                    <h3>Weather</h3>
-                    <p>Current Conditions: Hot and Dry</p>
-                    <p>Current Temp: 100&deg;F</p>
-                </section>
-                <section class="light-spotlights">
-                    <section class="light-spotlight1">
-                        <h3>Spotlight 1</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
-                    </section>
-                    <section class="light-spotlight2">
-                        <h3>Spotlight 2</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
-                    </section>
-                    <section class="light-spotlight3">
-                        <h3>Spotlight 3</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
-                    </section>   
-                </section>
-            </main>
-            <footer>
-                <div class="light-footer">
-                    <img src="https://picsum.photos/100/100" alt="logo image">
-                    <p>Chamber of Commerce</p>
-                    <p>123 Main Street</p>
-                    <p>City, State ZIP</p>
-                    <p>infochamber.org</p>
-                    <br>
-                    <p>&copy;<span id="currentYear"></span> Adam Sheridan</p>
-                    <p>WDD 230 Project</p>
-                    <p>Last Modified: <span id="lastModified"></span></p>
-                </div>
-            </footer>
+        </header>
+        <div id="mode">
+            🕶️
         </div>
-    </body>
-</div>
+        <main>
+            <section class="light-hero">
+                <!-- lorem picsum for pics -->
+                <img src="images/sugar_hill_wagon.webp" alt="hero-image">
+                <button>Call to Action</button>
+            </section>
+            <section class="light-events">
+                <h3>Events</h3>
+                <h4>Fourth of July Festival- 7/4/2024</h4>
+                <img src="images/fireworks.webp" alt="fireworks">
+                <p>Gather around to celebrate Independence Day at the Sugar Hill town center starting at 5pm. Join us for carnival games, live music, food trucks, and fireworks. Fireworks will start at sundown.</p>
+            </section>
+            <section class="light-weather">
+                <h3>Weather</h3>
+                <img src="images/sugar_hill_weather.webp">
+                <br>
+                <p>Below is a link to the temperature in degrees Fahrenheit. Generally the climate of Rexburg includes warm summers and freezing cold winters. It is overall considered a humid continental climate.</p>
+                <a href="https://weather.com/weather/tenday/l/427e1a2206c79d741658e93a739045254688a5fb3a6020177ebcbbadeb01bcd5">Click here to view current temperature</a>
+                <p id="windchill"></p>
+            </section>
+            <section class="spotlights">
+                <section class="light-spotlight1">
+                    <h3>The Diner at Sugar Hill</h3>
+                    <img src="images/diner.webp" alt="company1 pic">
+                    <br>
+                    <p>Come to Sugar Hill and have some of the best entrées and comfort foods around.</p>
+                    <br>
+                    <p>Contact Information</p>
+                    <a href="https://www.thedineratsugarhill.com/">Visit The Diner at Sugar Hill's Website</a>
+                </section>
+                <section class="light-spotlight2">
+                    <h3>Applebee's</h3>
+                    <img src="images/applebees.webp" alt="company2 pic">
+                    <br>
+                    <p>Since 1980, we've been serving a wide selection of dinner foods, so come and enjoy delicious food and drinks for the whole family!</p>
+                    <br>
+                    <p>Contact Information</p>
+                    <a href="https://restaurants.applebees.com/en-us/ga/sugar-hill/4685-nelson-brogdon-blvd-95083?utm_source=google&utm_medium=organic&utm_campaign=google_my_business&utm_term=95083&utm_content=website">Visit Applebee's Website</a>
+                </section>
+                <section class="light-spotlight3">
+                    <h3>Rreal Tacos</h3>
+                    <img src="images/rrealtacos.webp" alt="company3 pic">
+                    <br>
+                    <p>Welcome to the home of the best authentic Mexican food in Atlanta! With fresh ingredients and a goal to deliver the best food possible, theres no better place to be.</p>
+                    <br>
+                    <p>Contact Information</p>
+                    <a href="https://rrealtacos.com/locations/">Visit Rreal Taco's Website</a>
+                </section>   
+            </section>
+        </main>
+        <footer>
+            <div class="light-footer">
+                <p>Chamber of Commerce</p>
+                <p>5039 West Broad Street • Sugar Hill, GA 30518</p>
+                <p>cityofsugarhill.com</p>
+                <br>
+                <p>&copy;<span id="currentYear"></span> Adam Sheridan</p>
+                <p>WDD 230 Project</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>

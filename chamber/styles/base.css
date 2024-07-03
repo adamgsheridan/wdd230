@@ -33,12 +33,14 @@ ul {
 }
 
 .light-header h1 {
+    
     text-align: center;
     margin-top: 40px;
     color: var(--text-color);
 }
 
 .dark-header {
+    
     text-align: center;
     background-color: var(--dark-header-color);
     padding: 5px;
@@ -133,7 +135,7 @@ ul {
 }
 
 .light-hero img {
-    width: 50%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -153,6 +155,7 @@ ul {
 }
 
 .light-weather {
+    text-align: center;
     border: 3px var(--accent-color) solid;
     padding: 10px;
     margin: 5px;
@@ -169,6 +172,7 @@ ul {
     padding: 10px;
     margin: 5px;
     border-radius: 50px 15px;
+    text-align: center;
 }
 
 .light-spotlight2 {
@@ -176,6 +180,7 @@ ul {
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .light-spotlight3 {
@@ -183,6 +188,7 @@ ul {
     padding: 10px;
     margin: 5px;
     border-radius: 15px 50px;
+    text-align: center;
 }
 
 .light-footer {
@@ -191,12 +197,19 @@ ul {
     color: var(--text-color);
 }
 
+.light-footer p {
+    margin: 5px;
+}
+.dark-footer p {
+    margin: 5px;
+}
+
 .dark-hero {
     position: relative;
 }
 
 .dark-hero img {
-    width: 50%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -216,6 +229,7 @@ ul {
 }
 
 .dark-weather {
+    text-align: center;
     border: 3px var(--dark-accent-color) solid;
     padding: 10px;
     margin: 5px;
@@ -232,6 +246,7 @@ ul {
     padding: 10px;
     margin: 5px;
     border-radius: 50px 15px;
+    text-align: center;
 }
 
 .dark-spotlight2 {
@@ -239,6 +254,7 @@ ul {
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .dark-spotlight3 {
@@ -246,6 +262,7 @@ ul {
     padding: 10px;
     margin: 5px;
     border-radius: 15px 50px;
+    text-align: center;
 }
 
 .dark-footer {
@@ -256,15 +273,27 @@ ul {
 
 .light-events h3 {
     color: var(--text-color);
+    text-align: center;
+}
+.light-events h4 {
+    color: var(--text-color);
+    text-align: center;
 }
 .light-events p {
     color: var(--text-color);
+    text-align: center;
 }
 .dark-events h3 {
     color: var(--dark-text-color);
+    text-align: center;
+}
+.dark-events h4 {
+    color: var(--dark-text-color);
+    text-align: center;
 }
 .dark-events p {
     color: var(--dark-text-color);
+    text-align: center;
 }
 .light-weather h3 {
     color: var(--text-color);
@@ -313,4 +342,79 @@ ul {
 }
 .dark-spotlight3 p {
     color: var(--dark-text-color);
+}
+
+#top-header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.light-events img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark-events img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-weather a {
+    text-decoration: none;
+    color: var(--text-color);
+    
+}
+
+.dark-weather a {
+    text-decoration: none;
+    color: var(--dark-text-color);
+}
+
+.light-spotlight1 a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.dark-spotlight1 a {
+    text-decoration: none;
+    color: var(--dark-text-color);
+}
+.light-spotlight2 a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.dark-spotlight2 a {
+    text-decoration: none;
+    color: var(--dark-text-color);
+}
+.light-spotlight3 a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.dark-spotlight3 a {
+    text-decoration: none;
+    color: var(--dark-text-color);
+}
+
+.light-spotlight1 img {
+    width: 100%;
+}
+.light-spotlight2 img {
+    width: 100%;
+}
+.light-spotlight3 img {
+    width: 100%;
+}
+
+.dark-spotlight1 img {
+    width: 100%;
+}
+.dark-spotlight2 img {
+    width: 100%;
+}
+.dark-spotlight3 img {
+    width: 100%;
 }

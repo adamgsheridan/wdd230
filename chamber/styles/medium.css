@@ -1,5 +1,8 @@
 @media screen and (max-width: 799px){
-    .nav-visibility{
+    .light-nav-visibility{
+        display: none;
+    }
+    .dark-nav-visibility{
         display: none;
     }
     #hamburger-button{
