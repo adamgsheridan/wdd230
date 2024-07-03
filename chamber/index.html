@@ -18,65 +18,73 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/hamburgerMenu.js" defer></script>
     <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/nightMode.js" defer></script>
 </head>
-<body>
-    <div id="content">
-        <header>
-            <h1>Sugar Hill Chamber of Commerce</h1>
-        </header>
-        <button id="hamburger-button" onclick="toggleMenu()"></button>
-        <nav class="nav-visibility">
-            <div class="topnav">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
-                    <li><a href="#">Chamber</a></li>
-                    <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
-                    <li><a href="">Scripture</a></li>
-                </ul>
+<div class="light-body">
+    <body>
+        <div id="light-content">
+            <header class="light-header">
+                <h1>Sugar Hill Chamber of Commerce</h1>
+            </header>
+            <button id="hamburger-button" onclick="toggleMenu()"></button>
+            <nav class="light-nav-visibility">
+                <div class="topnav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                        <li><a href="#">Chamber</a></li>
+                        <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+                        <li><a href="">Scripture</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="mode">
+                🕶️
             </div>
-        </nav>
-        <main>
-            <section class="hero">
-                <!-- lorem picsum for pics -->
-                <img src="https://picsum.photos/100/100" alt="hero-image">
-                <button>Call to Action</button>
-            </section>
-            <section class="events">
-                <h3>Events</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia minima nam animi. Ut aspernatur quis incidunt sunt molestiae voluptas porro minus, dolore mollitia totam obcaecati in ab expedita quo? Fuga labore dolor molestias dolores quasi harum repellat doloremque quia ad architecto ea eos obcaecati dignissimos aliquid illo non eveniet, est vero veritatis nulla! Impedit aliquam adipisci voluptates quisquam, et, totam soluta explicabo neque quibusdam unde placeat similique reiciendis, sed id dignissimos reprehenderit quas sit beatae? Quo blanditiis et culpa praesentium, sequi cupiditate natus aut! Provident quas voluptatem architecto consequuntur dignissimos tenetur beatae cupiditate inventore sequi odio, similique ea expedita doloremque.</p>
-            </section>
-            <section class="weather">
-                <h3>Weather</h3>
-                <p>Current Conditions: Hot and Dry</p>
-                <p>Current Temp: 100&deg;F</p>
-            </section>
-            <section class="spotlights">
-                <section class="spotlight1">
-                    <h3>Spotlight 1</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
+            <main>
+                <section class="light-hero">
+                    <!-- lorem picsum for pics -->
+                    <img src="https://picsum.photos/100/100" alt="hero-image">
+                    <button>Call to Action</button>
                 </section>
-                <section class="spotlight2">
-                    <h3>Spotlight 2</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
+                <section class="light-events">
+                    <h3>Events</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia minima nam animi. Ut aspernatur quis incidunt sunt molestiae voluptas porro minus, dolore mollitia totam obcaecati in ab expedita quo? Fuga labore dolor molestias dolores quasi harum repellat doloremque quia ad architecto ea eos obcaecati dignissimos aliquid illo non eveniet, est vero veritatis nulla! Impedit aliquam adipisci voluptates quisquam, et, totam soluta explicabo neque quibusdam unde placeat similique reiciendis, sed id dignissimos reprehenderit quas sit beatae? Quo blanditiis et culpa praesentium, sequi cupiditate natus aut! Provident quas voluptatem architecto consequuntur dignissimos tenetur beatae cupiditate inventore sequi odio, similique ea expedita doloremque.</p>
                 </section>
-                <section class="spotlight3">
-                    <h3>Spotlight 3</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
-                </section>   
-            </section>
-        </main>
-        <footer>
-            <img src="https://picsum.photos/100/100" alt="logo image">
-            <p>Chamber of Commerce</p>
-            <p>123 Main Street</p>
-            <p>City, State ZIP</p>
-            <p>infochamber.org</p>
-            <br>
-            <p>&copy;<span id="currentYear"></span> Adam Sheridan</p>
-            <p>WDD 230 Project</p>
-            <p>Last Modified: <span id="lastModified"></span></p>
-        </footer>
-    </div>
-</body>
+                <section class="light-weather">
+                    <h3>Weather</h3>
+                    <p>Current Conditions: Hot and Dry</p>
+                    <p>Current Temp: 100&deg;F</p>
+                </section>
+                <section class="light-spotlights">
+                    <section class="light-spotlight1">
+                        <h3>Spotlight 1</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
+                    </section>
+                    <section class="light-spotlight2">
+                        <h3>Spotlight 2</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
+                    </section>
+                    <section class="light-spotlight3">
+                        <h3>Spotlight 3</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque necessitatibus deserunt reiciendis quibusdam eos voluptas aperiam provident libero rem voluptatum! Voluptatibus repudiandae pariatur voluptatum? Magnam debitis, perferendis reiciendis dolor repellat pariatur quos et tempora, numquam, laboriosam accusamus accusantium rem blanditiis recusandae eius laudantium amet odio dolorum suscipit labore. Iusto.</p>
+                    </section>   
+                </section>
+            </main>
+            <footer>
+                <div class="light-footer">
+                    <img src="https://picsum.photos/100/100" alt="logo image">
+                    <p>Chamber of Commerce</p>
+                    <p>123 Main Street</p>
+                    <p>City, State ZIP</p>
+                    <p>infochamber.org</p>
+                    <br>
+                    <p>&copy;<span id="currentYear"></span> Adam Sheridan</p>
+                    <p>WDD 230 Project</p>
+                    <p>Last Modified: <span id="lastModified"></span></p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</div>
 </html>
