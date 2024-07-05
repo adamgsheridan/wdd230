@@ -9,6 +9,22 @@
     --another-color: #E07A5F;
 }
 
+.temple {
+    display: block;
+    margin: auto;
+}
+
+.temple p {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    padding: .5rem;
+    border: 1px var(--text-color) solid;
+    border-radius: 4px;
+    background-color: var(--another-color);
+    color: var(--text-color);
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--background-color);
