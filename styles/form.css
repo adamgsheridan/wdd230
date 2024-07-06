@@ -1,0 +1,51 @@
+form fieldset {
+    margin: 2rem 20% 20% 20%;
+    border: 1px solid #33354c;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    text-align: left;
+}
+
+form legend {
+    color: #33354c;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #33354c;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    border: solid 1px #33354c;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form input.submitBtn {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+:root {
+    background: #33354c;
+}
