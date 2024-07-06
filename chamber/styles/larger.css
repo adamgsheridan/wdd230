@@ -26,4 +26,25 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    /* latest edits */
+    .light-discover-cards {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    .dark-discover-cards {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .light-discover-pic img:hover {
+        box-shadow: 5px 5px black;
+        filter: blur(2px);
+        border: 2px var(--header-color) solid;
+    }
+    .dark-discover-pic img:hover {
+        box-shadow: 5px 5px black;
+        filter: blur(2px);
+        border: 2px var(--dark-header-color) solid;
+    }
 }
+

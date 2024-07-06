@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adam Sheridan">
+    <meta name="description" content="WDD 230 - BYU Idaho - Spring 2024 - Chamber Project">
+    <meta name="og:title" content="Chamber of Commerce">
+    <meta name="og:type" content="website">
+    <!-- hero image goes below-->
+    <meta name="og:image" content="images/sugar_hill_logo.jpg">
+    <meta name="og:url" content="https://adamgsheridan.github.io/wdd230/chamber/index.html">
+    <title>Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/hamburgerMenu.js" defer></script>
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/nightMode.js" defer></script>
+    <script src="scripts/greetings.js" defer></script>
+</head>
+<body class="light-body">
+    <div id="light-content">
+        <header class="light-header">
+            <div id="top-header">
+                <img src="images/sugar_hill_logo.jpg" alt="hero-image">
+                <h1>Sugar Hill Chamber of Commerce</h1>
+            </div>
+        </header>
+        <button id="hamburger-button" onclick="toggleMenu()"></button>
+            <nav class="light-nav-visibility">
+                <div class="topnav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./">Chamber</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="">Join</a></li>
+                        <li><a href="">Directory</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <div id="mode">
+            🕶️
+        </div>
+        <main>
+            <div class="light-discover-cards">
+                <section class="light-discover-events">
+                    <h3>Events to look out For</h3>
+                    <h4>Fourth of July Festival - 7/4/2024</h4>
+                    <h4>Summer Break Bash - 7/8-11/2024</h4>
+                    <h4>Council Meeting - 7/8/2024</h4>
+                    <h4>Sugar Hill Live On Stage: The Spinners 7/12/2024</h4>
+                    <h4>Splash Night 7/26/2024</h4>
+                    <h4><span id="greeting"></span></h4>
+                </section>
+                <section class="light-discover-pics">
+                    <section class="light-discover-pic">
+                        <div>
+                            <picture>
+                                <img src="images/city_hall.webp" alt="city-hall" loading='lazy'>
+                            </picture>
+                            <h3>Sugar Hill City Hall</h3>
+                            <p>Our city hall stands for all of our friends, families, and visitors to get together and shape the future of Sugar Hill. It's fine architecture and well-maintained grounds allow for exciting events and lasting memories.</p>
+                        </div>
+                    </section>
+                    <section class="light-discover-pic">
+                        <div>
+                            <picture>
+                                <img src="images/bowl.webp" alt="bowl" loading='lazy'>
+                            </picture>
+                            <h3>The Bowl</h3>
+                            <p>The Bowl is an Amphitheater located at the town center here at Sugar Hill. Its grassy terraces allow poeple to comfortably sit or stand as they enjoy performances or other kinds of events.</p>
+                        </div>
+                    </section>
+                    <section class="light-discover-pic">
+                        <div>
+                            <picture>
+                                <img src="images/eagle_theatre.webp" alt="theatre" loading='lazy'>
+                            </picture>
+                            <h3>The Eagle Theatre</h3>
+                            <p>Come see live performances of some of the best music in town. The Eagle Theatre is the perfect venue for a night in town.</p>
+                        </div>
+                    </section>
+                    <section class="light-discover-pic">
+                        <div>
+                            <picture>
+                                <img src="images/gym.webp" alt="gym" loading='lazy'>
+                            </picture>
+                            <h3>City Hall Gym</h3>
+                            <p>Here at the Sugar Hill City Hall we have a gym open for the public. It's complete with a basketball court, a weightroom, and much more.</p>
+                        </div>
+                    </section>
+                    <section class="light-discover-pic">
+                        <div>
+                            <picture>
+                                <img src="images/splash_pad.webp" alt="splash-pad" loading='lazy'>
+                            </picture>
+                            <h3>Splash Pad</h3>
+                            <p>There's no better way to beat the heat than spend the day at the Sugar Hill Splash Pad. When you're looking to beat the heat on a summer afternoon, it's a no-brainer!</p>
+                        </div>
+                    </section>
+                    <section class="light-discover-pic">
+                        <div>
+                            <picture>
+                                <img src="images/memorial.webp" alt="memorial" loading='lazy'>
+                            </picture>
+                            <h3>Veterans Memorial</h3>
+                            <p>Out of respect for our troops we have a beautiful memorial for the heroes who have sacrificed everything to give us the freedoms that we have today.</p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="light-footer">
+                <p>Chamber of Commerce</p>
+                <p>5039 West Broad Street • Sugar Hill, GA 30518</p>
+                <p>cityofsugarhill.com</p>
+                <br>
+                <p>&copy;<span id="currentYear"></span> Adam Sheridan</p>
+                <p>WDD 230 Project</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
