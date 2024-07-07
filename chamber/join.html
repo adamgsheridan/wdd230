@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adam Sheridan">
+    <meta name="description" content="WDD 230 - BYU Idaho - Spring 2024 - Chamber Project">
+    <meta name="og:title" content="Chamber of Commerce">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="images/sugar_hill_logo.jpg">
+    <meta name="og:url" content="https://adamgsheridan.github.io/wdd230/chamber/index.html">
+    <title>Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/hamburgerMenu.js" defer></script>
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/nightMode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+</head>
+<body class="light-body">
+    <div id="light-content">
+        <header class="light-header">
+            <div id="top-header">
+                <img src="images/sugar_hill_logo.jpg" alt="hero-image">
+                <h1>Sugar Hill Chamber of Commerce<br>--Join Page--</h1>
+            </div>
+        </header>
+        <button id="hamburger-button" onclick="toggleMenu()"></button>
+            <nav class="light-nav-visibility">
+                <div class="topnav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="index.html">Chamber</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="">Directory</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <div id="mode">
+            🕶️
+        </div>
+        <main>
+            <div class="light-formblock">
+                <div class="light-form">
+                    <form method="get" action="thankyou.html">
+                        <fieldset>
+                            <legend>Fill out information to join:</legend>
+                            <div class="info"><h1>Personal Information</h1></div>
+                            <label class="top">First Name:<input type="text" id="fname" name="fname" required></label>
+                            <label class="top">Last Name:<input type="text" id="lname" name="lname" required></label>
+                            <label class="top">Title within your organization:<input type="text" id="position" name="position" pattern="[A-Za-z -]{7,}" required></label>
+                            <label class="top">Email:<input type="email" id="email" name="email" placeholder="someone@email.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                            <label class="top">Phone Number:<input type="tel" id="phone" name="phone" required></label>
+            
+                            <div class="info"><h1>Business Information</h1></div>
+                            <label class="top">Organization Name:<input type="text" id="organization" name="organization" required></label>
+                            <div>Membership Level</div>
+                            <label class="membership"><input type="radio" name="level" value="npmembership">NP Membership</label>
+                            <label class="membership"><input type="radio" name="level" value="bronze">Bronze Membership</label>
+                            <label class="membership"><input type="radio" name="level" value="silver">Silver Membership</label>
+                            <label class="membership"><input type="radio" name="level" value="gold">Gold Membership</label>
+                            <br>
+                            <p>Organization Description:</p>
+                            <textarea class="top" name="orgdescript" id="orgdescript"></textarea>
+                            <input type="hidden" id="hidden" value="date">
+                            <script src="scripts/getCurrentDate.js"></script>
+                            <br>
+                            <br>
+                            <input type="submit" class="submitBtn" value="Submit Information">
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="light-benefits">
+                    <h2>Membership Levels Benefits</h2>
+                    <h3>NP Membership</h3>
+                    <ul>
+                        <li>Those with non profit organizations do not have to pay any fees!</li>
+                    </ul>
+                    <h3>Bronze Membership</h3>
+                    <ul>
+                        <li>50% off gym membership</li>
+                        <li>Free coupons in the mail</li>
+                        <li>$5.99 per month</li>
+                    </ul>
+
+                    <h3>Silver Membership</h3>
+                    <ul>
+                        <li>free gym membership</li>
+                        <li>50% off all events held at the Sugar Hill Town Center</li>
+                        <li>All previous perks</li>
+                        <li>$24.99 per month</li>
+                    </ul>
+
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>100% off all club entry fees</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free backstage passes to all events</li>
+                    <li>All previous perks</li>
+                    <li>$100 per month</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div class="light-footer">
+                <p>Chamber of Commerce</p>
+                <p>5039 West Broad Street • Sugar Hill, GA 30518</p>
+                <p>cityofsugarhill.com</p>
+                <br>
+                <p>&copy;<span id="currentYear"></span> Adam Sheridan</p>
+                <p>WDD 230 Project</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

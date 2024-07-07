@@ -491,3 +491,114 @@ ul {
 .dark-discover-pic h3 {
     color: var(--dark-text-color);
 }
+
+/* Form stuff */
+
+form label.top input, form label.top select {
+    display: block;
+    border: solid 1px var(--text-color);
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 17rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form input.submitBtn {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 17rem;
+}
+
+form ::placeholder {
+    color: var(--text-color);
+}
+
+form p {
+    margin-bottom: 0;
+}
+
+form textarea {
+    background-color: var(--other-color);
+    border: 1px solid var(--text-color);
+}
+
+.info h1 {
+    color: var(--text-color);
+}
+
+/* thank you */
+.light-thankyou {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-color);
+}
+
+.dark-thankyou {
+    text-align: center;
+    padding: 3rem;
+    color: var(--dark-text-color);
+}
+
+.membership {
+    color: var(--text-color);
+}
+
+.top {
+    color: var(--text-color);
+}
+
+.light-formblock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dark-formblock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+fieldset {
+    padding: 15px;
+}
+
+.light-benefits {
+    margin: 2.25rem;
+    padding: 15px;
+    border: 1px solid var(--text-color);
+}
+
+.light-form {
+    margin: 1rem;
+    padding: 15px;
+}
+
+.dark-benefits {
+    margin: 2.25rem;
+    padding: 15px;
+    border: 1px solid var(--dark-text-color);
+}
+
+.dark-form {
+    margin: 1rem;
+    padding: 15px;
+}
+
+.light-benefits ul li {
+    color: var(--text-color);
+}
+
+.light-benefits h3, .light-benefits h2 {
+    color: var(--text-color);
+}
+
+.dark-benefits ul li {
+    color: var(--dark-text-color);
+}
+
+.dark-benefits h3, .dark-benefits h2 {
+    color: var(--dark-text-color);
+}
