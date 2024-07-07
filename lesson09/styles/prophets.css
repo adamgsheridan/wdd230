@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+header, main {
+    background-color: #d9f2b4;
+}
+
+h1 {
+    margin: 0;
+    color: #2E6444;
+}
+
+h2 {
+    color: #2E6444;
+}
+
+p {
+    color: #2E6444;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+section {
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #d3fac7;
+    border: 1px solid #b4ebca;
+    box-shadow: 10px 5px 5px #279151;
+}
+
+footer {
+    text-align: center;
+    background-color: #bcf4f5;
+}
+
+h3 {
+    margin: 0;
+}
+
+/* https://coolors.co/bcf4f5-b4ebca-d9f2b4-d3fac7-ffb7c3 */
