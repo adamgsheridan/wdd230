@@ -60,37 +60,26 @@ const maxTemp3 = document.querySelector("#max-temp3")
 
 function displayforecast(data) {
     const dayDate1 = data.list[0].dt_txt
-    const dayDate2 = data.list[1].dt_txt
-    const dayDate3 = data.list[2].dt_txt
+    const dayDate2 = data.list[8].dt_txt
+    const dayDate3 = data.list[16].dt_txt
 
     date1.innerHTML = dayDate1
     date2.innerHTML = dayDate2
     date3.innerHTML = dayDate3
 
-    const minimumTemp1 = data.list[0].main.temp_min
-    const minimumTemp2 = data.list[1].main.temp_min
-    const minimumTemp3 = data.list[2].main.temp_min
+    const minimumTemp1 = `${((data.list[0].main.temp_min - 273.15) * (9 / 5) + 32).toFixed(1)}&deg;F`
+    const minimumTemp2 = `${((data.list[8].main.temp_min - 273.15) * (9 / 5) + 32).toFixed(1)}&deg;F`
+    const minimumTemp3 = `${((data.list[16].main.temp_min - 273.15) * (9 / 5) + 32).toFixed(1)}&deg;F`
 
     minTemp1.innerHTML = minimumTemp1
     minTemp2.innerHTML = minimumTemp2
     minTemp3.innerHTML = minimumTemp3
 
-    const maximumTemp1 = data.list[0].main.temp_max
-    const maximumTemp2 = data.list[1].main.temp_max
-    const maximumTemp3 = data.list[2].main.temp_max
+    const maximumTemp1 = `${((data.list[0].main.temp_max - 273.15) * (9 / 5) + 32).toFixed(1)}&deg;F`
+    const maximumTemp2 = `${((data.list[8].main.temp_max - 273.15) * (9 / 5) + 32).toFixed(1)}&deg;F`
+    const maximumTemp3 = `${((data.list[16].main.temp_max - 273.15) * (9 / 5) + 32).toFixed(1)}&deg;F`
 
     maxTemp1.innerHTML = maximumTemp1
     maxTemp2.innerHTML = maximumTemp2
     maxTemp3.innerHTML = maximumTemp3
-
-    console.log("data in function")
-    console.log(data)
-    console.log("date")
-    console.log(data.list[0].dt_txt)
-    console.log("max temp")
-    console.log(data.list[0].main.temp_max)
-    console.log("min temp")
-    console.log(data.list[0].main.temp_min)
-
-
 }
