@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Sugar Hill Nut Company",
+            "address": "5885 Cumming Hwy Suite 108-245 Sugar Hill, GA 30518",
+            "phonenumber": "404-803-5051",
+            "websiteurl": "https://sugarhillnuts.com/",
+            "img": "images/nutcompanypic.jpg",
+            "membership level": "silver"
+        },
+        {
+            "name": "Sugar Hill Distillery",
+            "address": "1166 Church St., Sugar Hill, GA",
+            "phonenumber": "470-589-1775",
+            "websiteurl": "https://www.sugarhillstills.com/",
+            "img": "images/distillery.jpg",
+            "membership level": "gold"
+        },
+        {
+            "name": "AIM Chemicals INC",
+            "address": "4595 Commerce Pkwy, NE Sugar Hill, GA 30518",
+            "phonenumber": "770-945-2303",
+            "websiteurl": "https://www.aimchemicalsinc.com/",
+            "img": "images/aim.webp",
+            "membership level": "silver"
+        },
+        {
+            "name": "Optimal Technologies",
+            "address": "2775 Cruse Rd #2502 Lawrenceville, GA 30044",
+            "phonenumber": "404-422-2621",
+            "websiteurl": "https://www.optimaltechs.com/contact.html/",
+            "img": "images/optimal-tech.png",
+            "membership level": "bronze"
+        },
+        {
+            "name": "Sugar Hill Distribution Center",
+            "address": "400 INTERSTATE NORTH PARKWAY SUITE 850 ATLANTA, GA 30339",
+            "phonenumber": "770-795-1330",
+            "websiteurl": "https://www.taylormathis.com/contact/",
+            "img": "images/distribution.jpg",
+            "membership level": "silver"
+        },
+        {
+            "name": "Outcompete Marketing",
+            "address": "2522 Nelson Brogdon Blvd Sugar Hill, GA",
+            "phonenumber": "1-800-461-4780",
+            "websiteurl": "https://outcompetemarketing.com/",
+            "img": "images/marketing.jpg",
+            "membership level": "gold"
+        },
+        {
+            "name": "Reeves Young",
+            "address": "45 Peachtree Industrial Blvd. NW Sugar Hill, GA 30518",
+            "phonenumber": "770-271-1159",
+            "websiteurl": "https://www.reevesyoung.com/",
+            "img": "images/reevesyoung.jpg",
+            "membership level": "gold"
+        }
+    ]
+}

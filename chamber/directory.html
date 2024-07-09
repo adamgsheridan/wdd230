@@ -18,7 +18,7 @@
     <script src="scripts/hamburgerMenu.js" defer></script>
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/nightMode.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
 <body class="light-body">
     <div id="light-content">
@@ -43,7 +43,13 @@
         <div id="mode">
             🕶️
         </div>
-        <main></main>
+        <main class="light-main-directory">
+            <div id='light-directory-selector'>
+                <button id="directory-grid" class="active">▦</button>
+                <button id="directory-list">▤</button>
+            </div>
+            <div id='directory-data' class='directory-cards'></div>
+        </main>
         <footer>
             <div class="light-footer">
                 <p>Chamber of Commerce</p>

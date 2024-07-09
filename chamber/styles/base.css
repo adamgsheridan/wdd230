@@ -33,14 +33,14 @@ ul {
 }
 
 .light-header h1 {
-    
+
     text-align: center;
     margin-top: 40px;
     color: var(--text-color);
 }
 
 .dark-header {
-    
+
     text-align: center;
     background-color: var(--dark-header-color);
     padding: 5px;
@@ -67,11 +67,11 @@ ul {
     padding: 15px;
 }
 
-#hamburger-button::before{
+#hamburger-button::before {
     content: "≡";
 }
 
-#hamburger-button.open::before{
+#hamburger-button.open::before {
     content: "X";
 }
 
@@ -200,6 +200,7 @@ ul {
 .light-footer p {
     margin: 5px;
 }
+
 .dark-footer p {
     margin: 5px;
 }
@@ -275,71 +276,92 @@ ul {
     color: var(--text-color);
     text-align: center;
 }
+
 .light-events h4 {
     color: var(--text-color);
     text-align: center;
 }
+
 .light-events p {
     color: var(--text-color);
     text-align: center;
 }
+
 .dark-events h3 {
     color: var(--dark-text-color);
     text-align: center;
 }
+
 .dark-events h4 {
     color: var(--dark-text-color);
     text-align: center;
 }
+
 .dark-events p {
     color: var(--dark-text-color);
     text-align: center;
 }
+
 .light-weather h3 {
     color: var(--text-color);
 }
+
 .light-weather p {
     color: var(--text-color);
 }
+
 .dark-weather h3 {
     color: var(--dark-text-color);
 }
+
 .dark-weather p {
     color: var(--dark-text-color);
 }
+
 .light-spotlight1 h3 {
     color: var(--text-color);
 }
+
 .light-spotlight1 p {
     color: var(--text-color);
 }
+
 .dark-spotlight1 h3 {
     color: var(--dark-text-color);
 }
+
 .dark-spotlight1 p {
     color: var(--dark-text-color);
 }
+
 .light-spotlight2 h3 {
     color: var(--text-color);
 }
+
 .light-spotlight2 p {
     color: var(--text-color);
 }
+
 .dark-spotlight2 h3 {
     color: var(--dark-text-color);
 }
+
 .dark-spotlight2 p {
     color: var(--dark-text-color);
 }
+
 .light-spotlight3 h3 {
     color: var(--text-color);
 }
+
 .light-spotlight3 p {
     color: var(--text-color);
 }
+
 .dark-spotlight3 h3 {
     color: var(--dark-text-color);
 }
+
 .dark-spotlight3 p {
     color: var(--dark-text-color);
 }
@@ -349,14 +371,14 @@ ul {
     grid-template-columns: 1fr 4fr;
 }
 
-.light-events img{
+.light-events img {
     display: block;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.dark-events img{
+.dark-events img {
     display: block;
     width: 80%;
     margin-left: auto;
@@ -366,7 +388,7 @@ ul {
 .light-weather a {
     text-decoration: none;
     color: var(--text-color);
-    
+
 }
 
 .dark-weather a {
@@ -378,22 +400,27 @@ ul {
     text-decoration: none;
     color: var(--text-color);
 }
+
 .dark-spotlight1 a {
     text-decoration: none;
     color: var(--dark-text-color);
 }
+
 .light-spotlight2 a {
     text-decoration: none;
     color: var(--text-color);
 }
+
 .dark-spotlight2 a {
     text-decoration: none;
     color: var(--dark-text-color);
 }
+
 .light-spotlight3 a {
     text-decoration: none;
     color: var(--text-color);
 }
+
 .dark-spotlight3 a {
     text-decoration: none;
     color: var(--dark-text-color);
@@ -402,9 +429,11 @@ ul {
 .light-spotlight1 img {
     width: 100%;
 }
+
 .light-spotlight2 img {
     width: 100%;
 }
+
 .light-spotlight3 img {
     width: 100%;
 }
@@ -412,12 +441,15 @@ ul {
 .dark-spotlight1 img {
     width: 100%;
 }
+
 .dark-spotlight2 img {
     width: 100%;
 }
+
 .dark-spotlight3 img {
     width: 100%;
 }
+
 /* latest edits */
 
 .light-discover-events {
@@ -494,18 +526,19 @@ ul {
 
 /* Form stuff */
 
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
     display: block;
     border: solid 1px var(--text-color);
     border-radius: 4px;
     padding: .75rem;
     width: 100%;
     max-width: 17rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 form input.submitBtn {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 1rem 0 2rem 2%;
@@ -591,7 +624,8 @@ fieldset {
     color: var(--text-color);
 }
 
-.light-benefits h3, .light-benefits h2 {
+.light-benefits h3,
+.light-benefits h2 {
     color: var(--text-color);
 }
 
@@ -599,6 +633,34 @@ fieldset {
     color: var(--dark-text-color);
 }
 
-.dark-benefits h3, .dark-benefits h2 {
+.dark-benefits h3,
+.dark-benefits h2 {
     color: var(--dark-text-color);
+}
+
+.directory-cards section img {
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+
+.directory-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.directory-cards section {
+    border: 3px solid var(--accent-color);
+    margin: 4%;
+    background-color: var(--another-color);
+    box-shadow: 5px 5px var(--accent-color);
+    padding: 1rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.card-website {
+    text-decoration: none;
+    color: var(--text-color);
+    
 }

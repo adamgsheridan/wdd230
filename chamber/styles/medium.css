@@ -13,4 +13,9 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .directory-cards {
+        display: grid;
+        
+    }
 }

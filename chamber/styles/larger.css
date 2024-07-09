@@ -46,5 +46,10 @@
         filter: blur(2px);
         border: 2px var(--dark-header-color) solid;
     }
+
+    .directory-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
