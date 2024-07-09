@@ -136,6 +136,7 @@ footer {
 .card2 p{
     color: var(--text-color);
     padding: 1rem;
+    text-align: center;
 }
 
 .card1 {
@@ -174,4 +175,19 @@ footer {
 
 #learning-activities ul li a:hover{
     color: var(--header-color);
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    border: 2px solid var(--header-color);
+    margin: 1rem;
+    text-align: left;
+}
+
+
+.forecast ul{
+    margin-left: 1rem;
+    padding-left: 1rem;
+    color: var(--text-color)
 }
