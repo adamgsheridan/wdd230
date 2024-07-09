@@ -662,5 +662,25 @@ fieldset {
 .card-website {
     text-decoration: none;
     color: var(--text-color);
-    
+}
+
+.card-website:hover {
+    font-size: 110%;
+}
+
+.directory-list section img {
+    display: none;
+}
+
+.directory-list section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--another-color);
+    margin: 1rem;
+    color: var(--text-color);
+    box-shadow: 5px 5px var(--accent-color);
+}
+
+.directory-list section:hover {
+    transform: scale(1.01);
 }

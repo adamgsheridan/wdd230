@@ -10,7 +10,7 @@ selectGrid.addEventListener("click", ()=>{
         selectData.classList.remove("directory-list")
     }
 })
-
+6
 selectList.addEventListener("click", ()=>{
     if (!selectList.classList.contains("active")){
         selectList.classList.add("active")
@@ -28,10 +28,9 @@ const displayBusinesses = (businesses) => {
         let card = document.createElement("section")
         card.innerHTML = `
         <img src="${business.img}">
-        <p>${business.name}<p>
-        <p>${business.address}<p>
-        <p>${business.phonenumber}<p>
-        <p>~~~~~~~~~</p>
+        <p>${business.name}</p>
+        <p>${business.address}</p>
+        <p>${business.phonenumber}</p>
         <p><a class="card-website" href="${business.websiteurl}">Click Here To Visit Company Website</a></p>
         `
         cards.appendChild(card)
