@@ -630,26 +630,26 @@ fieldset {
 }
 
 .dark-benefits ul li {
-    color: var(--dark-text-color);
+    color: var(--dark-dark-text-color);
 }
 
 .dark-benefits h3,
 .dark-benefits h2 {
-    color: var(--dark-text-color);
+    color: var(--dark-dark-text-color);
 }
 
-.directory-cards section img {
+.light-directory-cards section img {
     width: 180px;
     display: block;
     margin: auto;
 }
 
-.directory-cards {
+.light-directory-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.directory-cards section {
+.light-directory-cards section {
     border: 3px solid var(--accent-color);
     margin: 4%;
     background-color: var(--another-color);
@@ -659,20 +659,47 @@ fieldset {
     text-align: center;
 }
 
-.card-website {
+.dark-directory-cards section img {
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+
+.dark-directory-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.dark-directory-cards section {
+    border: 3px solid var(--dark-accent-color);
+    margin: 4%;
+    background-color: var(--dark-another-color);
+    box-shadow: 5px 5px var(--dark-accent-color);
+    padding: 1rem;
+    color: var(--dark-text-color);
+    text-align: center;
+}
+
+
+.light-card-website {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.dark-card-website {
+    text-decoration: none;
+    color: var(--dark-text-color);
 }
 
 .card-website:hover {
     font-size: 110%;
 }
 
-.directory-list section img {
+.light-directory-list section img {
     display: none;
 }
 
-.directory-list section{
+.light-directory-list section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: var(--another-color);
@@ -681,6 +708,23 @@ fieldset {
     box-shadow: 5px 5px var(--accent-color);
 }
 
-.directory-list section:hover {
+.light-directory-list section:hover {
+    transform: scale(1.01);
+}
+
+.dark-directory-list section img {
+    display: none;
+}
+
+.dark-directory-list section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--dark-another-color);
+    margin: 1rem;
+    color: var(--dark-text-color);
+    box-shadow: 5px 5px var(--dark-accent-color);
+}
+
+.dark-directory-list section:hover {
     transform: scale(1.01);
 }

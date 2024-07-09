@@ -14,7 +14,11 @@
         grid-template-columns: 1fr;
     }
 
-    .directory-cards {
+    .light-directory-cards {
+        display: grid;
+        
+    }
+    .dark-directory-cards {
         display: grid;
         
     }
