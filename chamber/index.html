@@ -19,6 +19,8 @@
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/nightMode.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/meetAndGreet.js" defer></script>
 </head>
 <body class="light-body">
     <div id="light-content">
@@ -44,10 +46,15 @@
             🕶️
         </div>
         <main>
+            <section class="meet-greet">
+                <p>Come join us on Wednesday at 7pm for our Meet and Greet!!
+                    <button>X</button>
+                </p>
+            </section>
             <section class="light-hero">
                 <!-- lorem picsum for pics -->
                 <img src="images/sugar_hill_wagon.webp" alt="hero-image">
-                <button>Call to Action</button>
+                <button>Join Now</button>
             </section>
             <section class="light-events">
                 <h3>Events</h3>
@@ -59,9 +66,27 @@
                 <h3>Weather</h3>
                 <img src="images/sugar_hill_weather.webp" alt="outdoors">
                 <br>
-                <p>Below is a link to the temperature in degrees Fahrenheit. Generally the climate of Rexburg includes warm summers and freezing cold winters. It is overall considered a humid continental climate.</p>
-                <a href="https://weather.com/weather/tenday/l/427e1a2206c79d741658e93a739045254688a5fb3a6020177ebcbbadeb01bcd5">Click here to view current temperature</a>
-                <p id="windchill"></p>
+                <p>The general climate of Rexburg includes warm summers and freezing cold winters. It is overall considered a humid continental climate.</p>
+                <div class="light-forecast">
+                    <p>Weather Forecast: </p>
+                    <ul>
+                        <li>Date: <span id="date1">Placeholder</span></li>
+                        <li>Daily Low: <span id="min-temp1">Placeholder</span></li>
+                        <li>Daily High: <span id="max-temp1">Placeholder</span></li>
+                    </ul>
+                    <ul>
+                        <li>Date: <span id="date2">Placeholder</span></li>
+                        <li>Daily Low: <span id="min-temp2">Placeholder</span></li>
+                        <li>Daily High: <span id="max-temp2">Placeholder</span></li>
+                    </ul>
+                    <ul>
+                        <li>Date: <span id="date3">placeholder</span></li>
+                        <li>Daily Low: <span id="min-temp3">Placeholder</span></li>
+                        <li>Daily High: <span id="max-temp3">Placeholder</span></li>
+                    </ul>
+                    <p id="windchill"></p>
+                </div>
+                
             </section>
             <section class="spotlights">
                 <section class="light-spotlight1">

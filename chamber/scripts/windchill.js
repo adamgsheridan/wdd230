@@ -7,7 +7,7 @@ function calculateWindchill() {
         document.getElementById('windchill').innerHTML = "N/A"
     }
     else {
-        document.getElementById('windchill').innerHTML = "Windchill: " + windchill;
+        document.getElementById('windchill').innerHTML = "Windchill: " + windchill.toFixed(2);
     }
 }
 

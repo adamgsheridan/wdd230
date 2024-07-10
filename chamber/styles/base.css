@@ -728,3 +728,38 @@ fieldset {
 .dark-directory-list section:hover {
     transform: scale(1.01);
 }
+
+.light-forecast {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    border: 2px solid var(--text-color);
+    margin: 1rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.dark-forecast {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    border: 2px solid var(--dark-text-color);
+    margin: 1rem;
+    text-align: center;
+    border-radius: 15px;
+}
+.light-forecast ul{
+    margin-left: 1rem;
+    padding-left: 1rem;
+    color: var(--text-color)
+}
+.dark-forecast ul{
+    margin-left: 1rem;
+    padding-left: 1rem;
+    color: var(--dark-text-color)
+}
+
+.meet-greet.show{
+    display: block;
+}
+.meet-greet {
+    display: none;
+}
