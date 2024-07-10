@@ -757,9 +757,22 @@ fieldset {
     color: var(--dark-text-color)
 }
 
-.meet-greet.show{
+.light-meet-greet.show{
     display: block;
+    text-align: center;
+    background-color: var(--header-color);
+    padding: 5px;
 }
-.meet-greet {
+.light-meet-greet {
+    display: none;
+}
+
+.dark-meet-greet.show{
+    display: block;
+    text-align: center;
+    background-color: var(--header-color);
+    padding: 5px;
+}
+.dark-meet-greet {
     display: none;
 }
