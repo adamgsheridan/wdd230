@@ -770,7 +770,7 @@ fieldset {
 .dark-meet-greet.show{
     display: block;
     text-align: center;
-    background-color: var(--header-color);
+    background-color: var(--dark-header-color);
     padding: 5px;
 }
 .dark-meet-greet {
