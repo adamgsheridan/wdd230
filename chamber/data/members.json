@@ -6,7 +6,7 @@
             "phonenumber": "404-803-5051",
             "websiteurl": "https://sugarhillnuts.com/",
             "img": "images/nutcompanypic.jpg",
-            "membership level": "silver"
+            "membershiplevel": "silver"
         },
         {
             "name": "Sugar Hill Distillery",
@@ -14,7 +14,7 @@
             "phonenumber": "470-589-1775",
             "websiteurl": "https://www.sugarhillstills.com/",
             "img": "images/distillery.jpg",
-            "membership level": "gold"
+            "membershiplevel": "gold"
         },
         {
             "name": "AIM Chemicals INC",
@@ -22,7 +22,7 @@
             "phonenumber": "770-945-2303",
             "websiteurl": "https://www.aimchemicalsinc.com/",
             "img": "images/aim.webp",
-            "membership level": "silver"
+            "membershiplevel": "silver"
         },
         {
             "name": "Optimal Technologies",
@@ -30,7 +30,7 @@
             "phonenumber": "404-422-2621",
             "websiteurl": "https://www.optimaltechs.com/contact.html/",
             "img": "images/optimal-tech.png",
-            "membership level": "bronze"
+            "membershiplevel": "bronze"
         },
         {
             "name": "Sugar Hill Distribution Center",
@@ -38,7 +38,7 @@
             "phonenumber": "770-795-1330",
             "websiteurl": "https://www.taylormathis.com/contact/",
             "img": "images/distribution.jpg",
-            "membership level": "silver"
+            "membershiplevel": "silver"
         },
         {
             "name": "Outcompete Marketing",
@@ -46,7 +46,7 @@
             "phonenumber": "1-800-461-4780",
             "websiteurl": "https://outcompetemarketing.com/",
             "img": "images/marketing.jpg",
-            "membership level": "gold"
+            "membershiplevel": "gold"
         },
         {
             "name": "Reeves Young",
@@ -54,7 +54,7 @@
             "phonenumber": "770-271-1159",
             "websiteurl": "https://www.reevesyoung.com/",
             "img": "images/reevesyoung.jpg",
-            "membership level": "gold"
+            "membershiplevel": "gold"
         }
     ]
 }

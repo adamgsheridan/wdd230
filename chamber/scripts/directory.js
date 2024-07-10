@@ -50,6 +50,7 @@ const displayBusinesses = (businesses) => {
         <p>${business.address}</p>
         <p>${business.phonenumber}</p>
         <p><a class="light-card-website" href="${business.websiteurl}">Click Here To Visit Company Website</a></p>
+        <p>Membership level: ${business.membershiplevel}</p>
         `
         cards.appendChild(card)
     })

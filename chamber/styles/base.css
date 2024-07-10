@@ -701,7 +701,7 @@ fieldset {
 
 .light-directory-list section{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     background-color: var(--another-color);
     margin: 1rem;
     color: var(--text-color);
@@ -718,7 +718,7 @@ fieldset {
 
 .dark-directory-list section{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     background-color: var(--dark-another-color);
     margin: 1rem;
     color: var(--dark-text-color);
