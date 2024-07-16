@@ -699,7 +699,7 @@ fieldset {
     display: none;
 }
 
-.light-directory-list section{
+.light-directory-list section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: var(--another-color);
@@ -716,7 +716,7 @@ fieldset {
     display: none;
 }
 
-.dark-directory-list section{
+.dark-directory-list section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: var(--dark-another-color);
@@ -731,7 +731,7 @@ fieldset {
 
 .light-forecast {
     display: grid;
-    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-columns: 1fr;
     border: 2px solid var(--text-color);
     margin: 1rem;
     text-align: center;
@@ -740,39 +740,43 @@ fieldset {
 
 .dark-forecast {
     display: grid;
-    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-columns: 1fr;
     border: 2px solid var(--dark-text-color);
     margin: 1rem;
     text-align: center;
     border-radius: 15px;
 }
-.light-forecast ul{
+
+.light-forecast ul {
     margin-left: 1rem;
     padding-left: 1rem;
     color: var(--text-color)
 }
-.dark-forecast ul{
+
+.dark-forecast ul {
     margin-left: 1rem;
     padding-left: 1rem;
     color: var(--dark-text-color)
 }
 
-.light-meet-greet.show{
+.light-meet-greet.show {
     display: block;
     text-align: center;
     background-color: var(--header-color);
     padding: 5px;
 }
+
 .light-meet-greet {
     display: none;
 }
 
-.dark-meet-greet.show{
+.dark-meet-greet.show {
     display: block;
     text-align: center;
     background-color: var(--dark-header-color);
     padding: 5px;
 }
+
 .dark-meet-greet {
     display: none;
 }
