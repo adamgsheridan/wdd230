@@ -1,4 +1,4 @@
-let fday = new Date().getDay();
+let fday = new Date().getDay()
 
 if (fday >= 1 && fday <= 4) {
     document.querySelector(".light-meet-greet").classList.add("show")
