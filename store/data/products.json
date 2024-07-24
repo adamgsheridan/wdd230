@@ -1,0 +1,108 @@
+{
+    "products": [
+        {
+            "productnumber": 1,
+            "name": "Leaf Blower",
+            "description": "A tool used to keep leaves and other types of debris off your lawn.",
+            "imgurl": "images/blower.jpg",
+            "price": "100",
+            "Featured": false
+        },
+        {
+            "productnumber": 2,
+            "name": "Edging Tool",
+            "description": "A tool used to keep the edges of your lawn looking sharp and tidy",
+            "imgurl": "images/edger.webp",
+            "price": "150",
+            "Featured": true
+
+        },
+        {
+            "productnumber": 3,
+            "name": "Gardening fork",
+            "description": "5",
+            "imgurl": "images/fork.jpg",
+            "price": "5",
+            "Featured": false
+
+        },
+        {
+            "productnumber": 4,
+            "name": "Gloves",
+            "description": "A pair of hardy gloves to protect your hands.",
+            "imgurl": "images/gloves.jpg",
+            "price": "5",
+            "Featured": false
+
+        },
+        {
+            "productnumber": 5,
+            "name": "Hoe",
+            "description": "A tool used to break up soil and dirt.",
+            "imgurl": "images/hoe.jpg",
+            "price": "8",
+            "Featured": false
+
+        },
+        {
+            "productnumber": 6,
+            "name": "Lawn Mower",
+            "description": "A push lawn mower perfect for keeping your lawn nice and short.",
+            "imgurl": "images/mower.jpg",
+            "price": "200",
+            "Featured": true
+
+        },
+        {
+            "productnumber": 7,
+            "name": "Mulch",
+            "description": "A bag of quality brown mulch for flowerbeds or any other part of your yard that isn't covered in grass.",
+            "imgurl": "images/mulch.jpg",
+            "price": "8",
+            "Featured": true
+        },
+        {
+            "productnumber": 8,
+            "name": "Pot",
+            "description": "A 28 inch flower pot perfect for large outdoor flowers.",
+            "imgurl": "images/pots.jpg",
+            "price": "4",
+            "Featured": false
+        },
+        {
+            "productnumber": 9,
+            "name": "Secateurs",
+            "description": "A tool that makes cutting and trimming things a breeze.",
+            "imgurl": "images/secateurs.jpg",
+            "price": "6",
+            "Featured": false
+
+        },
+        {
+            "productnumber": 10,
+            "name": "Shovel",
+            "description": "A tool that can be used for digging up larger holes to place large plants, fences, etc.",
+            "imgurl": "images/shovel.jpg",
+            "price": "10",
+            "Featured": false
+
+        },
+        {
+            "productnumber": 11,
+            "name": "Roll of Sod",
+            "description": "A roll of sod ready to be laid out over any bare patches of ground in your yard. Sold in 2 feet by 6 feet rolls.",
+            "imgurl": "images/sod.jpg",
+            "price": "10",
+            "Featured": false
+
+        },
+        {
+            "productnumber": 2,
+            "name": "Spade",
+            "description": "A gardening tool used to dig small holes for plants to be planted inside of.",
+            "imgurl": "images/spade.jpg",
+            "price": "5",
+            "Featured": false
+        }
+    ]
+}

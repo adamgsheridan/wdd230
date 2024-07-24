@@ -9,15 +9,15 @@
     --another-color: #E07A5F;
 }
 
-.temple {
+.mower {
     text-align: center;
     position: relative;
 }
 
-.temple p {
+.mower p {
     position: absolute;
-    top: 2rem;
-    left: 2rem;
+    top: 3rem;
+    right: 8rem;
     padding: .5rem;
     border: 1px var(--text-color) solid;
     border-radius: 4px;
@@ -175,4 +175,22 @@ footer {
 
 #learning-activities ul li a:hover{
     color: var(--header-color);
+}
+
+
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    text-align: center;
+}
+
+.product-cards img {
+    max-width: 200px;
+}
+
+.product-cards section {
+    border: 1px var(--header-color) solid;
+    margin: 1rem;
+    padding: 10px;
 }
