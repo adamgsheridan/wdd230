@@ -10,7 +10,8 @@ const displayProducts = (products) => {
         let card = document.createElement("section")
         card.innerHTML = `
         <img src="${product.imgurl}">
-        <p>${product.name}</p>
+        <h4>${product.name}</h4>
+        <hr>
         <p>${product.description}</p>
         <p>Price: $${product.price}</p>
         <p>Featured: ${product.featured}</p>

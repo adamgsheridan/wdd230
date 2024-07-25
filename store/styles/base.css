@@ -187,10 +187,40 @@ footer {
 
 .product-cards img {
     max-width: 200px;
+    max-height: 150px;
 }
 
 .product-cards section {
-    border: 1px var(--header-color) solid;
+    background: var(--header-color);
+    box-shadow: 10px 10px 15px var(--text-color);
     margin: 1rem;
     padding: 10px;
+    height: 400px;
+}
+
+.product-cards p, .product-cards h4{
+    color: var(--text-color);
+}
+
+.about-us {
+    display: block;
+    margin: 5px;
+
+}
+
+.company-origins, .city-origins {
+    margin: 3rem 2rem;
+    padding: 5px;
+    text-align: center;
+    color: var(--text-color);
+    background: var(--header-color);
+    box-shadow: 10px 10px 15px var(--text-color);
+}
+
+.slc-map {
+    display: block;
+    box-shadow: 10px 10px 15px var(--text-color);
+    max-width: 775px;
+    margin: auto;
+    margin-bottom: 2rem;
 }
